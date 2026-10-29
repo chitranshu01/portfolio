@@ -718,6 +718,24 @@ body {
   transform: translateY(-3px);
 }
 
+.profile-social-btn svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+
+.profile-social-btn:hover svg {
+  transform: scale(1.1);
+}
+
+.social-svg-icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
 /* SECTIONS COMMON */
 .section {
   padding: 5rem 0;
